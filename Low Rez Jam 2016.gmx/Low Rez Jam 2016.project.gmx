@@ -9,6 +9,7 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_test1_mask</sprite>
     <sprite>sprites\spr_green_cloud_1</sprite>
+    <sprite>sprites\spr_energy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_test</background>
@@ -25,6 +26,7 @@
     <objects name="environment">
       <object>objects\obj_cloud</object>
     </objects>
+    <object>objects\obj_energy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_test</room>

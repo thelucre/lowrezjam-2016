@@ -56,6 +56,7 @@
     <instance objName="obj_cloud" x="51" y="5" name="inst_FA050F0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cloud" x="81" y="21" name="inst_C6677582" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cloud" x="3" y="16" name="inst_2A587AC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_energy" x="48" y="37" name="inst_EFA09242" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bkd_test" x="0" y="0" w="64" h="64" xo="0" yo="128" id="10000001" name="inst_B8EC5ECB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
