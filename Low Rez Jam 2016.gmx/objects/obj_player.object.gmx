@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.3
+            <string>// zoome to 8x size if not fullscreen
+if(!window_get_fullscreen()) window_set_size(512, 512);
+
+image_speed = 0.3
 move_speed = 0.3
 </string>
           </argument>
@@ -68,6 +71,12 @@ if(movex == 0 &amp;&amp; movey == 0) {
   image_speed = 0
   image_index = 0
 } else image_speed = 0.3
+
+// limit view to current map tile
+view_xview[0] = floor(x/64)*64
+view_yview[0] = floor(y/64)*64
+
+
 </string>
           </argument>
         </arguments>
