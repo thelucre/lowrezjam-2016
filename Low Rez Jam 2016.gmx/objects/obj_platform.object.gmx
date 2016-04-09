@@ -56,7 +56,7 @@ active_rate = 0.02
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>active = (abs(obj_player.x - x) &lt;= min_dist) 
+            <string>active = (abs(obj_player.x - x) &lt;= min_dist &amp;&amp; abs(obj_player.y - ystart) &lt; 4) 
 
 if(active) {
   y *= 1-active_rate
