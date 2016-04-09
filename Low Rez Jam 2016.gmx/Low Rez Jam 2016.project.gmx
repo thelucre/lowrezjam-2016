@@ -12,6 +12,7 @@
     <sprite>sprites\spr_energy</sprite>
     <sprites name="engine">
       <sprite>sprites\spr_teleport</sprite>
+      <sprite>sprites\spr_screenwipe</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -21,6 +22,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\log.gml</script>
+    <script>scripts\init.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -31,10 +33,11 @@
       <object>objects\obj_cloud</object>
     </objects>
     <object>objects\obj_energy</object>
+    <object>objects\obj_hud</object>
     <objects name="engine">
       <object>objects\obj_teleport</object>
+      <object>objects\obj_screenwipe</object>
     </objects>
-    <object>objects\obj_hud</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_init</room>

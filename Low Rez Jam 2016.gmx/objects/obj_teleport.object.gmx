@@ -2,8 +2,8 @@
 <object>
   <spriteName>spr_teleport</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
-  <depth>0</depth>
+  <visible>0</visible>
+  <depth>-1000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,9 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(teleport_x != -1 &amp;&amp; teleport_y != -1) {
-  other.x = teleport_x
-  other.y = teleport_y
+            <string>if(teleport_x != -1 &amp;&amp; teleport_y != -1 &amp;&amp; global.canMove) {
+  var transition = instance_create(view_xview[0]+32,view_yview[0]+32,obj_screenwipe);
+  transition.movex = teleport_x
+  transition.movey = teleport_y
+  transition.player = other
 }
 </string>
           </argument>
