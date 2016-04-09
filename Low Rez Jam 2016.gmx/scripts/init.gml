@@ -3,16 +3,16 @@
 /*
  *GLOBAL GAME SETUP
  */
-global.debug = true // activate goodies
+// activate secret goodies
+global.debug = true 
 global.fast = true
 
-
+// game variables 
 global.energy = 0
 global.canMove = true
 
+// maintain dat 64x64
+display_set_gui_size(64,64)
 
-
-
-
-
+// ok desu ka?
 room_goto_next()

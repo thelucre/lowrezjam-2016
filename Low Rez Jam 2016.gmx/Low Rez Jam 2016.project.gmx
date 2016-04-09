@@ -14,6 +14,8 @@
       <sprite>sprites\spr_teleport</sprite>
       <sprite>sprites\spr_screenwipe</sprite>
     </sprites>
+    <sprite>sprites\spr_warpstand</sprite>
+    <sprite>sprites\spr_warpstand_active</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_test</background>
@@ -23,6 +25,7 @@
   <scripts name="scripts">
     <script>scripts\log.gml</script>
     <script>scripts\init.gml</script>
+    <script>scripts\fire_screen_wipe.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -38,6 +41,7 @@
       <object>objects\obj_teleport</object>
       <object>objects\obj_screenwipe</object>
     </objects>
+    <object>objects\obj_warpstand</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_init</room>
