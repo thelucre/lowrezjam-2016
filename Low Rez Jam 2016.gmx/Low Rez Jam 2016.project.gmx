@@ -16,6 +16,7 @@
     </sprites>
     <sprite>sprites\spr_warpstand</sprite>
     <sprite>sprites\spr_warpstand_active</sprite>
+    <sprite>sprites\spr_platform</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_test</background>
@@ -26,6 +27,7 @@
     <script>scripts\log.gml</script>
     <script>scripts\init.gml</script>
     <script>scripts\fire_screen_wipe.gml</script>
+    <script>scripts\map.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -34,6 +36,7 @@
     </objects>
     <objects name="environment">
       <object>objects\obj_cloud</object>
+      <object>objects\obj_platform</object>
     </objects>
     <object>objects\obj_energy</object>
     <object>objects\obj_hud</object>
