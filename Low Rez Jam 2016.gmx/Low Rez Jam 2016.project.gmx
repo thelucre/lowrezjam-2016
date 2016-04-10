@@ -17,6 +17,7 @@
     <sprite>sprites\spr_warpstand</sprite>
     <sprite>sprites\spr_warpstand_active</sprite>
     <sprite>sprites\spr_platform</sprite>
+    <sprite>sprites\spr_windmill</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_test</background>
@@ -37,6 +38,7 @@
     <objects name="environment">
       <object>objects\obj_cloud</object>
       <object>objects\obj_platform</object>
+      <object>objects\obj_windmill</object>
     </objects>
     <object>objects\obj_energy</object>
     <object>objects\obj_hud</object>
