@@ -17,6 +17,7 @@
     <sprite>sprites\spr_warpstand</sprite>
     <sprite>sprites\spr_warpstand_active</sprite>
     <sprite>sprites\spr_platform</sprite>
+    <sprite>sprites\spr_small_platform</sprite>
     <sprite>sprites\spr_windmill</sprite>
   </sprites>
   <backgrounds name="background">
@@ -38,6 +39,7 @@
     <objects name="environment">
       <object>objects\obj_cloud</object>
       <object>objects\obj_platform</object>
+      <object>objects\obj_small_platform</object>
       <object>objects\obj_windmill</object>
     </objects>
     <object>objects\obj_energy</object>
@@ -47,6 +49,7 @@
       <object>objects\obj_screenwipe</object>
     </objects>
     <object>objects\obj_warpstand</object>
+    <object>objects\obj_base</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_init</room>
