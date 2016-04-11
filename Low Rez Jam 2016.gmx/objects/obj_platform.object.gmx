@@ -32,7 +32,7 @@ min_dist = 5
 active = false
 
 // how fast to change (exponential) 
-active_rate = 0.02
+active_rate = 0.5
 
 </string>
           </argument>
@@ -59,12 +59,12 @@ active_rate = 0.02
             <string>active = (abs(obj_player.x - x) &lt;= min_dist &amp;&amp; abs(obj_player.y - ystart) &lt; 4) 
 
 if(active) {
-  y *= 1-active_rate
+  y -= active_rate
   y = max(y,ystart)
   image_alpha += 0.15
   image_alpha = min(image_alpha,1)
 } else {
-  y *= 1+active_rate
+  y += active_rate
   y = min(y,ystart+4)
   image_alpha -= 0.15
   image_alpha = max(image_alpha,0)
