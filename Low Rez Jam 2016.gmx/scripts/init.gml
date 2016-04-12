@@ -3,6 +3,10 @@
 /*
  *GLOBAL GAME SETUP
  */
+ 
+// zoome to 8x size if not fullscreen
+if(!window_get_fullscreen()) window_set_size(512, 512);
+
 // activate secret goodies
 global.debug = true 
 global.fast = true
