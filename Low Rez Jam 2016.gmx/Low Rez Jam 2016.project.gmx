@@ -13,6 +13,7 @@
     <sprites name="engine">
       <sprite>sprites\spr_teleport</sprite>
       <sprite>sprites\spr_screenwipe</sprite>
+      <sprite>sprites\spr_lucre_Logo</sprite>
     </sprites>
     <sprite>sprites\spr_warpstand</sprite>
     <sprite>sprites\spr_warpstand_active</sprite>
@@ -47,6 +48,7 @@
     <objects name="engine">
       <object>objects\obj_teleport</object>
       <object>objects\obj_screenwipe</object>
+      <object>objects\obj_logo</object>
     </objects>
     <object>objects\obj_warpstand</object>
     <object>objects\obj_base</object>
