@@ -20,6 +20,9 @@
     <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\spr_small_platform</sprite>
     <sprite>sprites\spr_windmill</sprite>
+    <sprites name="environment">
+      <sprite>sprites\spr_switch</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_test</background>
@@ -42,6 +45,7 @@
       <object>objects\obj_platform</object>
       <object>objects\obj_small_platform</object>
       <object>objects\obj_windmill</object>
+      <object>objects\obj_switch</object>
     </objects>
     <object>objects\obj_energy</object>
     <object>objects\obj_hud</object>
