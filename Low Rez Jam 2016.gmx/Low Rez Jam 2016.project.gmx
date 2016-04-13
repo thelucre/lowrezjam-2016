@@ -22,6 +22,7 @@
     <sprite>sprites\spr_windmill</sprite>
     <sprites name="environment">
       <sprite>sprites\spr_switch</sprite>
+      <sprite>sprites\spr_water_valve</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -34,6 +35,8 @@
     <script>scripts\init.gml</script>
     <script>scripts\fire_screen_wipe.gml</script>
     <script>scripts\map.gml</script>
+    <script>scripts\array_create.gml</script>
+    <script>scripts\get_objects.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -46,6 +49,7 @@
       <object>objects\obj_small_platform</object>
       <object>objects\obj_windmill</object>
       <object>objects\obj_switch</object>
+      <object>objects\obj_water_valve</object>
     </objects>
     <object>objects\obj_energy</object>
     <object>objects\obj_hud</object>

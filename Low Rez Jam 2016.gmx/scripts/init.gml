@@ -17,3 +17,6 @@ global.canMove = true
 
 // maintain dat 64x64
 display_set_gui_size(64,64)
+
+// skip intro sequence in dev
+if(global.debug) room_goto_next()
