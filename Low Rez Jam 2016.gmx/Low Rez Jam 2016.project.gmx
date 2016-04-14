@@ -21,6 +21,7 @@
       <sprite>sprites\spr_water_valve</sprite>
       <sprite>sprites\spr_platform</sprite>
       <sprite>sprites\spr_warpstand</sprite>
+      <sprite>sprites\spr_spiritgate</sprite>
     </sprites>
     <sprites name="cave">
       <sprite>sprites\spr_spillway_1</sprite>
@@ -59,6 +60,7 @@
       <object>objects\obj_warpstand</object>
       <object>objects\obj_switch</object>
       <object>objects\obj_water_valve</object>
+      <object>objects\obj_spiritgate</object>
     </objects>
     <objects name="engine">
       <object>objects\obj_teleport</object>

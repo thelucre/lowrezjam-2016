@@ -59,7 +59,7 @@
     <instance objName="obj_energy" x="403" y="104" name="inst_2717ECD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hud" x="15" y="227" name="inst_ED32629C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warpstand" x="345" y="104" name="inst_2A375EFC" locked="0" code="teleport_x = 263&#xA;teleport_y = 105&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="81" y="202" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="213" y="93" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="221" y="23" name="inst_7BA5EC43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="219" y="23" name="inst_E3C6DD65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="217" y="23" name="inst_8718D0B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -136,6 +136,7 @@
     <instance objName="obj_spillway_3" x="91" y="238" name="inst_D0ECB325" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spillway_4" x="99" y="237" name="inst_6C76C238" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spillway_5" x="108" y="244" name="inst_F2D9705E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spiritgate" x="224" y="77" name="inst_A330C056" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bkd_test" x="0" y="0" w="64" h="64" xo="0" yo="128" id="10000001" name="inst_B8EC5ECB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

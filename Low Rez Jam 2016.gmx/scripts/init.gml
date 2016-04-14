@@ -14,6 +14,9 @@ global.fast = true
 // game variables 
 global.energy = 0
 global.canMove = true
+global.ring = false 
+global.gear = false 
+global.wand = false
 
 // maintain dat 64x64
 display_set_gui_size(64,64)
