@@ -7,23 +7,30 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_test1_mask</sprite>
-    <sprite>sprites\spr_green_cloud_1</sprite>
-    <sprite>sprites\spr_energy</sprite>
     <sprites name="engine">
       <sprite>sprites\spr_teleport</sprite>
+      <sprite>sprites\spr_energy</sprite>
       <sprite>sprites\spr_screenwipe</sprite>
       <sprite>sprites\spr_lucre_Logo</sprite>
     </sprites>
-    <sprite>sprites\spr_warpstand</sprite>
-    <sprite>sprites\spr_warpstand_active</sprite>
-    <sprite>sprites\spr_platform</sprite>
-    <sprite>sprites\spr_small_platform</sprite>
-    <sprite>sprites\spr_windmill</sprite>
     <sprites name="environment">
+      <sprite>sprites\spr_small_platform</sprite>
+      <sprite>sprites\spr_windmill</sprite>
+      <sprite>sprites\spr_warpstand_active</sprite>
       <sprite>sprites\spr_switch</sprite>
       <sprite>sprites\spr_water_valve</sprite>
+      <sprite>sprites\spr_platform</sprite>
+      <sprite>sprites\spr_warpstand</sprite>
     </sprites>
+    <sprites name="cave">
+      <sprite>sprites\spr_spillway_1</sprite>
+      <sprite>sprites\spr_spillway_2</sprite>
+      <sprite>sprites\spr_spillway_3</sprite>
+      <sprite>sprites\spr_spillway_4</sprite>
+      <sprite>sprites\spr_spillway_5</sprite>
+    </sprites>
+    <sprite>sprites\spr_test1_mask</sprite>
+    <sprite>sprites\spr_green_cloud_1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_test</background>
@@ -39,6 +46,7 @@
     <script>scripts\get_objects.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\obj_base</object>
     <object>objects\obj_player</object>
     <objects name="masks">
       <object>objects\obj_level1_mask</object>
@@ -48,18 +56,25 @@
       <object>objects\obj_platform</object>
       <object>objects\obj_small_platform</object>
       <object>objects\obj_windmill</object>
+      <object>objects\obj_warpstand</object>
       <object>objects\obj_switch</object>
       <object>objects\obj_water_valve</object>
     </objects>
-    <object>objects\obj_energy</object>
-    <object>objects\obj_hud</object>
     <objects name="engine">
       <object>objects\obj_teleport</object>
+      <object>objects\obj_hud</object>
+      <object>objects\obj_energy</object>
       <object>objects\obj_screenwipe</object>
       <object>objects\obj_logo</object>
     </objects>
-    <object>objects\obj_warpstand</object>
-    <object>objects\obj_base</object>
+    <objects name="cave">
+      <object>objects\obj_spillway</object>
+      <object>objects\obj_spillway_2</object>
+      <object>objects\obj_spillway_3</object>
+      <object>objects\obj_spillway_4</object>
+      <object>objects\obj_spillway_5</object>
+      <object>objects\obj_spillway_base</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_init</room>
