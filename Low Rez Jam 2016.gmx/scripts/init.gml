@@ -15,9 +15,10 @@ global.fast     = true
 global.energy   = 0 // unused 
 global.canMove  = true
 global.key      = false
-global.ring     = false 
+global.ring     = true 
 global.gear     = false 
 global.wand     = false
+global.teleports_active = false
 
 // maintain dat 64x64
 display_set_gui_size(64,64)
