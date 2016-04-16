@@ -54,7 +54,7 @@
     <instance objName="obj_teleport" x="349" y="99" name="inst_BB60B37D" locked="0" code="teleport_x = 407&#xA;teleport_y = 116&#xA;" scaleX="0.625" scaleY="0.75" colour="4294967295" rotation="51"/>
     <instance objName="obj_teleport" x="396" y="118" name="inst_A6B7E95E" locked="0" code="teleport_x = 349 &#xA;teleport_y = 103&#xA;" scaleX="0.75" scaleY="1.75" colour="4294967295" rotation="47"/>
     <instance objName="obj_hud" x="15" y="227" name="inst_ED32629C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="220" y="144" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="444" y="235" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="221" y="23" name="inst_7BA5EC43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="219" y="23" name="inst_E3C6DD65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="217" y="23" name="inst_8718D0B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -159,6 +159,8 @@
     <instance objName="obj_warpstand" x="326" y="227" name="inst_9E7B43EA" locked="0" code="teleport_x = 243&#xA;teleport_y = 141&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warpstand" x="277" y="74" name="inst_1C48948F" locked="0" code="teleport_x = 372 &#xA;teleport_y = 168&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warpstand" x="375" y="166" name="inst_5E267333" locked="0" code="teleport_x = 278&#xA;teleport_y = 71&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="474" y="233" name="inst_031240E4" locked="0" code="teleport_x = 206&#xA;teleport_y = 218&#xA;" scaleX="0.375" scaleY="0.375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="203" y="212" name="inst_EAFE53C1" locked="0" code="teleport_x = 471&#xA;teleport_y = 235&#xA;" scaleX="0.875" scaleY="0.625" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="&lt;undefined&gt;" x="0" y="0" w="64" h="64" xo="0" yo="128" id="10000001" name="inst_B8EC5ECB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
