@@ -23,6 +23,14 @@
       <sprite>sprites\spr_warpstand</sprite>
       <sprite>sprites\spr_spiritgate</sprite>
       <sprite>sprites\spr_interactables</sprite>
+      <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_mushroom</sprite>
+      <sprite>sprites\spr_stump</sprite>
+      <sprite>sprites\spr_ruins_1</sprite>
+      <sprite>sprites\spr_ruins_2</sprite>
+      <sprite>sprites\spr_trapdoor</sprite>
+      <sprite>sprites\spr_shrubs</sprite>
+      <sprite>sprites\spr_chest</sprite>
     </sprites>
     <sprites name="cave">
       <sprite>sprites\spr_spillway_1</sprite>
@@ -61,6 +69,14 @@
       <object>objects\obj_switch</object>
       <object>objects\obj_water_valve</object>
       <object>objects\obj_spiritgate</object>
+      <object>objects\obj_door</object>
+      <object>objects\obj_mushroom</object>
+      <object>objects\obj_stump</object>
+      <object>objects\obj_ruins_1</object>
+      <object>objects\obj_ruins_2</object>
+      <object>objects\obj_shrubs</object>
+      <object>objects\obj_chest</object>
+      <object>objects\obj_trapdoor</object>
     </objects>
     <objects name="engine">
       <object>objects\obj_teleport</object>
@@ -80,7 +96,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_init</room>
-    <room>rooms\room_test</room>
+    <room>rooms\room_game</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
