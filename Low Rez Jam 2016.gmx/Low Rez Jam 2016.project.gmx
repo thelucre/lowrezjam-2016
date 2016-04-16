@@ -34,6 +34,8 @@
       <sprite>sprites\spr_crystals_1</sprite>
       <sprite>sprites\spr_crystals_2</sprite>
       <sprite>sprites\spr_desert_rock</sprite>
+      <sprite>sprites\sprite34</sprite>
+      <sprite>sprites\spr_spiritgate_frame</sprite>
     </sprites>
     <sprites name="cave">
       <sprite>sprites\spr_spillway_1</sprite>
@@ -85,6 +87,7 @@
       <object>objects\obj_desert_rock</object>
       <object>objects\obj_chest</object>
       <object>objects\obj_trapdoor</object>
+      <object>objects\obj_spiritgate_frame</object>
     </objects>
     <objects name="engine">
       <object>objects\obj_teleport</object>
@@ -92,6 +95,7 @@
       <object>objects\obj_energy</object>
       <object>objects\obj_screenwipe</object>
       <object>objects\obj_logo</object>
+      <object>objects\obj_spiritgate_switch</object>
     </objects>
     <objects name="cave">
       <object>objects\obj_spillway</object>
