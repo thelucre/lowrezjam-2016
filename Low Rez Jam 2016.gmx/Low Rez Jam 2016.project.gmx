@@ -31,6 +31,9 @@
       <sprite>sprites\spr_trapdoor</sprite>
       <sprite>sprites\spr_shrubs</sprite>
       <sprite>sprites\spr_chest</sprite>
+      <sprite>sprites\spr_crystals_1</sprite>
+      <sprite>sprites\spr_crystals_2</sprite>
+      <sprite>sprites\spr_desert_rock</sprite>
     </sprites>
     <sprites name="cave">
       <sprite>sprites\spr_spillway_1</sprite>
@@ -38,6 +41,8 @@
       <sprite>sprites\spr_spillway_3</sprite>
       <sprite>sprites\spr_spillway_4</sprite>
       <sprite>sprites\spr_spillway_5</sprite>
+      <sprite>sprites\spr_cave_light_1</sprite>
+      <sprite>sprites\spr_cave_light_2</sprite>
     </sprites>
     <sprite>sprites\spr_test1_mask</sprite>
     <sprite>sprites\spr_green_cloud_1</sprite>
@@ -75,6 +80,9 @@
       <object>objects\obj_ruins_1</object>
       <object>objects\obj_ruins_2</object>
       <object>objects\obj_shrubs</object>
+      <object>objects\obj_crystals_1</object>
+      <object>objects\obj_crystals_2</object>
+      <object>objects\obj_desert_rock</object>
       <object>objects\obj_chest</object>
       <object>objects\obj_trapdoor</object>
     </objects>
@@ -92,6 +100,8 @@
       <object>objects\obj_spillway_4</object>
       <object>objects\obj_spillway_5</object>
       <object>objects\obj_spillway_base</object>
+      <object>objects\obj_cave_light_1</object>
+      <object>objects\obj_cave_light_2</object>
     </objects>
   </objects>
   <rooms name="rooms">
