@@ -22,6 +22,7 @@
       <sprite>sprites\spr_platform</sprite>
       <sprite>sprites\spr_warpstand</sprite>
       <sprite>sprites\spr_spiritgate</sprite>
+      <sprite>sprites\spr_interactables</sprite>
     </sprites>
     <sprites name="cave">
       <sprite>sprites\spr_spillway_1</sprite>
@@ -34,7 +35,6 @@
     <sprite>sprites\spr_green_cloud_1</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bkd_test</background>
     <background>background\bkd_map</background>
   </backgrounds>
   <paths name="paths"/>
