@@ -178,8 +178,13 @@
     <instance objName="obj_move_switch" x="273" y="239" name="inst_9FE26ED9" locked="0" code="move_dir = 1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_move_switch" x="265" y="239" name="inst_341D0840" locked="0" code="move_dir = 3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_move_switch" x="269" y="243" name="inst_719E692F" locked="0" code="move_dir = 2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_light_hide" x="256" y="232" name="inst_95689AE8" locked="0" code="hide = true&#xA;" scaleX="0.25" scaleY="2.63000011444092" colour="4294967295" rotation="0"/>
-    <instance objName="obj_light_hide" x="258" y="232" name="inst_EFEF6FFF" locked="0" code="hide = false&#xA;" scaleX="0.125" scaleY="2.625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light_hide" x="255" y="232" name="inst_95689AE8" locked="0" code="hide = true&#xA;" scaleX="0.25" scaleY="2.63000011444092" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light_hide" x="257" y="232" name="inst_EFEF6FFF" locked="0" code="hide = false&#xA;" scaleX="0.125" scaleY="2.625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cody" x="291" y="230" name="inst_2C264C21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_desert_bridge" x="291" y="242" name="inst_0F8DDC4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gloop_1" x="293" y="216" name="inst_8E5092BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gloop_2" x="285" y="228" name="inst_767FA36D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gloop_3" x="300" y="233" name="inst_9AB55E52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="&lt;undefined&gt;" x="0" y="0" w="64" h="64" xo="0" yo="128" id="10000001" name="inst_B8EC5ECB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

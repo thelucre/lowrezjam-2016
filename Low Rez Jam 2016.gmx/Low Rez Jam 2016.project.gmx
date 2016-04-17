@@ -72,6 +72,12 @@
     <sprites name="cody">
       <sprite>sprites\spr_desert_switch</sprite>
       <sprite>sprites\spr_desert_light</sprite>
+      <sprite>sprites\spr_cody_idle</sprite>
+      <sprite>sprites\spr_gloop_1</sprite>
+      <sprite>sprites\spr_gloop_2</sprite>
+      <sprite>sprites\spr_gloop_3</sprite>
+      <sprite>sprites\spr_desert_bridge</sprite>
+      <sprite>sprites\spr_gear_detail</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -150,6 +156,12 @@
       <object>objects\obj_move_switch</object>
       <object>objects\obj_desert_light</object>
       <object>objects\obj_light_hide</object>
+      <object>objects\obj_cody</object>
+      <object>objects\obj_gloop_1</object>
+      <object>objects\obj_gloop_2</object>
+      <object>objects\obj_gloop_3</object>
+      <object>objects\obj_desert_bridge</object>
+      <object>objects\obj_gear_detail</object>
     </objects>
   </objects>
   <rooms name="rooms">
