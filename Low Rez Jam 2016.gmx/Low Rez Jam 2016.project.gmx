@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_main</sound>
+    <sound>sound\snd_desert</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprites name="engine">
@@ -132,6 +135,7 @@
       <object>objects\obj_windmill_trigger</object>
       <object>objects\obj_abigail_trigger</object>
       <object>objects\obj_twitter</object>
+      <object>objects\obj_bgm_manager</object>
     </objects>
     <objects name="cave">
       <object>objects\obj_spillway</object>

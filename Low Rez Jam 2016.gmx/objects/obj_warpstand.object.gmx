@@ -78,7 +78,15 @@ image_speed = 0.4
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(active &amp;&amp; global.canMove) fire_screen_wipe(teleport_x, teleport_y)
+            <string>if(active &amp;&amp; global.canMove) {
+  fire_screen_wipe(teleport_x, teleport_y)
+  
+  if(bgm != obj_bgm_manager.bgm) {
+    audio_stop_sound(obj_bgm_manager.bgm)
+    obj_bgm_manager.bgm = bgm
+    audio_play_sound(obj_bgm_manager.bgm, 100, true)
+  }
+}
 
 </string>
           </argument>

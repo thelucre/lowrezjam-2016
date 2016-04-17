@@ -51,9 +51,9 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_teleport" x="349" y="99" name="inst_BB60B37D" locked="0" code="teleport_x = 407&#xA;teleport_y = 116&#xA;" scaleX="0.625" scaleY="0.75" colour="4294967295" rotation="51"/>
-    <instance objName="obj_teleport" x="396" y="118" name="inst_A6B7E95E" locked="0" code="teleport_x = 349 &#xA;teleport_y = 103&#xA;" scaleX="0.75" scaleY="1.75" colour="4294967295" rotation="47"/>
-    <instance objName="obj_player" x="38" y="37" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="349" y="99" name="inst_BB60B37D" locked="0" code="teleport_x = 407&#xA;teleport_y = 116&#xA;bgm = snd_main&#xA;" scaleX="0.625" scaleY="0.75" colour="4294967295" rotation="51"/>
+    <instance objName="obj_teleport" x="396" y="118" name="inst_A6B7E95E" locked="0" code="teleport_x = 349 &#xA;teleport_y = 103&#xA;bgm = snd_main&#xA;" scaleX="0.75" scaleY="1.75" colour="4294967295" rotation="47"/>
+    <instance objName="obj_player" x="240" y="141" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="221" y="23" name="inst_7BA5EC43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="219" y="23" name="inst_E3C6DD65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="217" y="23" name="inst_8718D0B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -62,8 +62,8 @@
     <instance objName="obj_platform" x="223" y="23" name="inst_1B147BB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="225" y="23" name="inst_407B4EEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="227" y="23" name="inst_15A3E847" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_teleport" x="145" y="98" name="inst_C5F34719" locked="0" code="teleport_x = 188&#xA;teleport_y = 174&#xA;" scaleX="0.875" scaleY="2" colour="4294967295" rotation="-9"/>
-    <instance objName="obj_teleport" x="190" y="166" name="inst_B8A63BC6" locked="0" code="teleport_x = 155&#xA;teleport_y = 110&#xA;" scaleX="0.625" scaleY="2.125" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="145" y="98" name="inst_C5F34719" locked="0" code="teleport_x = 188&#xA;teleport_y = 174&#xA;bgm = snd_main&#xA;" scaleX="0.875" scaleY="2" colour="4294967295" rotation="-9"/>
+    <instance objName="obj_teleport" x="190" y="166" name="inst_B8A63BC6" locked="0" code="teleport_x = 155&#xA;teleport_y = 110&#xA;bgm = snd_main&#xA;" scaleX="0.625" scaleY="2.125" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="249" y="100" name="inst_6D88D101" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="247" y="100" name="inst_977EEB83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="245" y="100" name="inst_3D347A44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -154,11 +154,11 @@
     <instance objName="obj_cave_light_2" x="128" y="159" name="inst_BCB03125" locked="0" code="depth = -y - 1000000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spiritgate_switch" x="217" y="78" name="inst_6BDC54FF" locked="0" code="" scaleX="1.875" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_spiritgate_frame" x="224" y="77" name="inst_BB43FA0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warpstand" x="246" y="140" name="inst_381E7D8E" locked="0" code="teleport_x = 331&#xA;teleport_y = 228&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warpstand" x="326" y="227" name="inst_9E7B43EA" locked="0" code="teleport_x = 243&#xA;teleport_y = 141&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warpstand" x="277" y="74" name="inst_1C48948F" locked="0" code="teleport_x = 372 &#xA;teleport_y = 168&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warpstand" x="375" y="166" name="inst_5E267333" locked="0" code="teleport_x = 278&#xA;teleport_y = 71&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_teleport" x="474" y="233" name="inst_031240E4" locked="0" code="teleport_x = 206&#xA;teleport_y = 220&#xA;" scaleX="0.375" scaleY="0.375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warpstand" x="246" y="140" name="inst_381E7D8E" locked="0" code="teleport_x = 331&#xA;teleport_y = 228&#xA;bgm = snd_desert&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warpstand" x="326" y="227" name="inst_9E7B43EA" locked="0" code="teleport_x = 243&#xA;teleport_y = 141&#xA;bgm = snd_main&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warpstand" x="277" y="74" name="inst_1C48948F" locked="0" code="teleport_x = 372 &#xA;teleport_y = 168&#xA;bgm = snd_main&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warpstand" x="375" y="166" name="inst_5E267333" locked="0" code="teleport_x = 278&#xA;teleport_y = 71&#xA;bgm = snd_main&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="474" y="233" name="inst_031240E4" locked="0" code="teleport_x = 206&#xA;teleport_y = 219&#xA;bgm = snd_main&#xA;" scaleX="0.375" scaleY="0.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_bridge" x="274" y="163" name="inst_684439D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_windmill_trigger" x="267" y="162" name="inst_BD8F8053" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_abigail" x="64" y="192" name="inst_99B5E2B7" locked="0" code="depth = 10000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -166,7 +166,7 @@
     <instance objName="obj_abigail_arm" x="67" y="192" name="inst_338339EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_abigail_trigger" x="76" y="197" name="inst_73CA95CE" locked="0" code="" scaleX="2.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_abigail_human" x="117" y="230" name="inst_5464FB36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_teleport" x="202" y="208" name="inst_7BC0BDFF" locked="0" code="teleport_x = 471&#xA;teleport_y = 235&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="202" y="208" name="inst_7BC0BDFF" locked="0" code="teleport_x = 471&#xA;teleport_y = 235&#xA;bgm = snd_main&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_desert_light" x="282" y="243" name="inst_DB4D4A78" locked="0" code="cid = 1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_desert_light" x="291" y="243" name="inst_DE257C1B" locked="0" code="cid = 2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_desert_light" x="300" y="243" name="inst_6D9A731F" locked="0" code="cid = 3" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -185,6 +185,7 @@
     <instance objName="obj_gloop_2" x="285" y="228" name="inst_767FA36D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gloop_3" x="300" y="233" name="inst_9AB55E52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_twitter" x="56" y="58" name="inst_DC746C0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bgm_manager" x="-21" y="38" name="inst_D2E80071" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="&lt;undefined&gt;" x="0" y="0" w="64" h="64" xo="0" yo="128" id="10000001" name="inst_B8EC5ECB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
