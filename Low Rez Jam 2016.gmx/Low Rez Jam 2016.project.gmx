@@ -66,6 +66,9 @@
       <sprite>sprites\spr_abigail</sprite>
       <sprite>sprites\spr_abigail_wave</sprite>
     </sprites>
+    <sprites name="items">
+      <sprite>sprites\spr_ring_detail</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_map</background>
@@ -134,6 +137,9 @@
       <object>objects\obj_abigail_arm</object>
       <object>objects\obj_boss_flash</object>
       <object>objects\obj_abigail_human</object>
+    </objects>
+    <objects name="items">
+      <object>objects\obj_ring_detail</object>
     </objects>
   </objects>
   <rooms name="rooms">
