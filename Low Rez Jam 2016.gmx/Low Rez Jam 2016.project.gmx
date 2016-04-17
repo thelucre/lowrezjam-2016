@@ -69,6 +69,10 @@
     <sprites name="items">
       <sprite>sprites\spr_ring_detail</sprite>
     </sprites>
+    <sprites name="cody">
+      <sprite>sprites\spr_desert_switch</sprite>
+      <sprite>sprites\spr_desert_light</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_map</background>
@@ -140,6 +144,12 @@
     </objects>
     <objects name="items">
       <object>objects\obj_ring_detail</object>
+    </objects>
+    <objects name="cody">
+      <object>objects\obj_light_switch</object>
+      <object>objects\obj_move_switch</object>
+      <object>objects\obj_desert_light</object>
+      <object>objects\obj_light_hide</object>
     </objects>
   </objects>
   <rooms name="rooms">
