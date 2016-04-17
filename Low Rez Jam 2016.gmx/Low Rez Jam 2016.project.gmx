@@ -40,6 +40,7 @@
       <sprite>sprites\spr_windmill_switch</sprite>
     </sprites>
     <sprites name="cave">
+      <sprite>sprites\spr_abigail_path</sprite>
       <sprite>sprites\spr_spillway_1</sprite>
       <sprite>sprites\spr_spillway_2</sprite>
       <sprite>sprites\spr_spillway_3</sprite>
@@ -50,6 +51,21 @@
     </sprites>
     <sprite>sprites\spr_test1_mask</sprite>
     <sprite>sprites\spr_green_cloud_1</sprite>
+    <sprites name="family">
+      <sprite>sprites\spr_abigail_look</sprite>
+      <sprite>sprites\spr_abigail_look_arm</sprite>
+      <sprite>sprites\spr_abigail_idle</sprite>
+      <sprite>sprites\spr_abigail_idle_arm</sprite>
+      <sprite>sprites\spr_abigail_drink</sprite>
+      <sprite>sprites\spr_abigail_drink_arm</sprite>
+      <sprite>sprites\spr_abigail_look_end</sprite>
+      <sprite>sprites\spr_abigail_look_end_arm</sprite>
+      <sprite>sprites\spr_abigail_flash</sprite>
+      <sprite>sprites\spr_abigail_flash_arm</sprite>
+      <sprite>sprites\spr_flash</sprite>
+      <sprite>sprites\spr_abigail</sprite>
+      <sprite>sprites\spr_abigail_wave</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_map</background>
@@ -100,6 +116,7 @@
       <object>objects\obj_logo</object>
       <object>objects\obj_spiritgate_switch</object>
       <object>objects\obj_windmill_trigger</object>
+      <object>objects\obj_abigail_trigger</object>
     </objects>
     <objects name="cave">
       <object>objects\obj_spillway</object>
@@ -110,6 +127,13 @@
       <object>objects\obj_spillway_base</object>
       <object>objects\obj_cave_light_1</object>
       <object>objects\obj_cave_light_2</object>
+      <object>objects\obj_abigail_path</object>
+    </objects>
+    <objects name="family">
+      <object>objects\obj_abigail</object>
+      <object>objects\obj_abigail_arm</object>
+      <object>objects\obj_boss_flash</object>
+      <object>objects\obj_abigail_human</object>
     </objects>
   </objects>
   <rooms name="rooms">

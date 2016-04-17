@@ -54,7 +54,7 @@
     <instance objName="obj_teleport" x="349" y="99" name="inst_BB60B37D" locked="0" code="teleport_x = 407&#xA;teleport_y = 116&#xA;" scaleX="0.625" scaleY="0.75" colour="4294967295" rotation="51"/>
     <instance objName="obj_teleport" x="396" y="118" name="inst_A6B7E95E" locked="0" code="teleport_x = 349 &#xA;teleport_y = 103&#xA;" scaleX="0.75" scaleY="1.75" colour="4294967295" rotation="47"/>
     <instance objName="obj_hud" x="15" y="227" name="inst_ED32629C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="260" y="248" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="84" y="189" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="221" y="23" name="inst_7BA5EC43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="219" y="23" name="inst_E3C6DD65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="217" y="23" name="inst_8718D0B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -163,6 +163,11 @@
     <instance objName="obj_teleport" x="203" y="212" name="inst_EAFE53C1" locked="0" code="teleport_x = 471&#xA;teleport_y = 235&#xA;" scaleX="0.875" scaleY="0.625" colour="4294967295" rotation="0"/>
     <instance objName="obj_bridge" x="274" y="163" name="inst_684439D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_windmill_trigger" x="267" y="162" name="inst_BD8F8053" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abigail" x="64" y="192" name="inst_99B5E2B7" locked="0" code="depth = 10000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abigail_path" x="64" y="192" name="inst_C890D8EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abigail_arm" x="67" y="192" name="inst_338339EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abigail_trigger" x="76" y="197" name="inst_73CA95CE" locked="0" code="" scaleX="2.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abigail_human" x="117" y="230" name="inst_5464FB36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="&lt;undefined&gt;" x="0" y="0" w="64" h="64" xo="0" yo="128" id="10000001" name="inst_B8EC5ECB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
