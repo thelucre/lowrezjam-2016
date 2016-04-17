@@ -16,7 +16,7 @@ global.energy   = 0 // unused
 global.canMove  = true
 global.key      = false
 global.ring     = false 
-global.gear     = true 
+global.gear     = false 
 global.wand     = false
 global.teleports_active = false
 

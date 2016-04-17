@@ -12,6 +12,7 @@
       <sprite>sprites\spr_energy</sprite>
       <sprite>sprites\spr_screenwipe</sprite>
       <sprite>sprites\spr_lucre_Logo</sprite>
+      <sprite>sprites\spr_twitter</sprite>
     </sprites>
     <sprites name="environment">
       <sprite>sprites\spr_small_platform</sprite>
@@ -130,6 +131,7 @@
       <object>objects\obj_spiritgate_switch</object>
       <object>objects\obj_windmill_trigger</object>
       <object>objects\obj_abigail_trigger</object>
+      <object>objects\obj_twitter</object>
     </objects>
     <objects name="cave">
       <object>objects\obj_spillway</object>

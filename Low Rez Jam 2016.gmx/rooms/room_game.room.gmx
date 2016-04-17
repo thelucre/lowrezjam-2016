@@ -53,8 +53,7 @@
   <instances>
     <instance objName="obj_teleport" x="349" y="99" name="inst_BB60B37D" locked="0" code="teleport_x = 407&#xA;teleport_y = 116&#xA;" scaleX="0.625" scaleY="0.75" colour="4294967295" rotation="51"/>
     <instance objName="obj_teleport" x="396" y="118" name="inst_A6B7E95E" locked="0" code="teleport_x = 349 &#xA;teleport_y = 103&#xA;" scaleX="0.75" scaleY="1.75" colour="4294967295" rotation="47"/>
-    <instance objName="obj_hud" x="15" y="227" name="inst_ED32629C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="259" y="245" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="38" y="37" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="221" y="23" name="inst_7BA5EC43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="219" y="23" name="inst_E3C6DD65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="217" y="23" name="inst_8718D0B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -64,7 +63,7 @@
     <instance objName="obj_platform" x="225" y="23" name="inst_407B4EEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="227" y="23" name="inst_15A3E847" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_teleport" x="145" y="98" name="inst_C5F34719" locked="0" code="teleport_x = 188&#xA;teleport_y = 174&#xA;" scaleX="0.875" scaleY="2" colour="4294967295" rotation="-9"/>
-    <instance objName="obj_teleport" x="191" y="167" name="inst_B8A63BC6" locked="0" code="teleport_x = 155&#xA;teleport_y = 110&#xA;" scaleX="0.375" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="190" y="166" name="inst_B8A63BC6" locked="0" code="teleport_x = 155&#xA;teleport_y = 110&#xA;" scaleX="0.625" scaleY="2.125" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="249" y="100" name="inst_6D88D101" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="247" y="100" name="inst_977EEB83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="245" y="100" name="inst_3D347A44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -153,7 +152,7 @@
     <instance objName="obj_desert_rock" x="452" y="242" name="inst_A1B174BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cave_light_1" x="224" y="224" name="inst_9DC5BD00" locked="0" code="depth = -y - 100&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cave_light_2" x="128" y="159" name="inst_BCB03125" locked="0" code="depth = -y - 1000000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spiritgate_switch" x="218" y="78" name="inst_6BDC54FF" locked="0" code="" scaleX="1.625" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spiritgate_switch" x="217" y="78" name="inst_6BDC54FF" locked="0" code="" scaleX="1.875" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_spiritgate_frame" x="224" y="77" name="inst_BB43FA0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warpstand" x="246" y="140" name="inst_381E7D8E" locked="0" code="teleport_x = 331&#xA;teleport_y = 228&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warpstand" x="326" y="227" name="inst_9E7B43EA" locked="0" code="teleport_x = 243&#xA;teleport_y = 141&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -185,6 +184,7 @@
     <instance objName="obj_gloop_1" x="293" y="216" name="inst_8E5092BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gloop_2" x="285" y="228" name="inst_767FA36D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gloop_3" x="300" y="233" name="inst_9AB55E52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_twitter" x="56" y="58" name="inst_DC746C0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="&lt;undefined&gt;" x="0" y="0" w="64" h="64" xo="0" yo="128" id="10000001" name="inst_B8EC5ECB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
