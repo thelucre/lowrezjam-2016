@@ -158,7 +158,7 @@
     <instance objName="obj_warpstand" x="326" y="227" name="inst_9E7B43EA" locked="0" code="teleport_x = 243&#xA;teleport_y = 141&#xA;bgm = snd_main&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warpstand" x="277" y="74" name="inst_1C48948F" locked="0" code="teleport_x = 372 &#xA;teleport_y = 168&#xA;bgm = snd_main&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warpstand" x="375" y="166" name="inst_5E267333" locked="0" code="teleport_x = 278&#xA;teleport_y = 71&#xA;bgm = snd_main&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_teleport" x="474" y="233" name="inst_031240E4" locked="0" code="teleport_x = 206&#xA;teleport_y = 219&#xA;bgm = snd_main&#xA;" scaleX="0.375" scaleY="0.375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="474" y="233" name="inst_031240E4" locked="0" code="teleport_x = 206&#xA;teleport_y = 219&#xA;bgm = snd_desert&#xA;" scaleX="0.375" scaleY="0.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_bridge" x="274" y="163" name="inst_684439D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_windmill_trigger" x="267" y="162" name="inst_BD8F8053" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_abigail" x="64" y="192" name="inst_99B5E2B7" locked="0" code="depth = 10000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
