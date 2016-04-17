@@ -1,1 +1,5 @@
-build-html5/
+*
+!index.html
+!favicon.ico
+!html5game/
+!html5game/*
