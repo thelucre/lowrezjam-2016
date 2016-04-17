@@ -53,7 +53,6 @@ image_speed = 0
             <string>if(active and !triggered) {
   image_speed = 0.1
   triggered = true 
-  solid = false
 }
 </string>
           </argument>
@@ -79,6 +78,7 @@ image_speed = 0
             <kind>1</kind>
             <string>image_speed = 0
 image_index = sprite_get_number(sprite_index) -1
+solid = false
 </string>
           </argument>
         </arguments>
