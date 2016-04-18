@@ -53,7 +53,7 @@
   <instances>
     <instance objName="obj_teleport" x="349" y="99" name="inst_BB60B37D" locked="0" code="teleport_x = 407&#xA;teleport_y = 116&#xA;bgm = snd_main&#xA;" scaleX="0.625" scaleY="0.75" colour="4294967295" rotation="51"/>
     <instance objName="obj_teleport" x="396" y="118" name="inst_A6B7E95E" locked="0" code="teleport_x = 349 &#xA;teleport_y = 103&#xA;bgm = snd_main&#xA;" scaleX="0.75" scaleY="1.75" colour="4294967295" rotation="47"/>
-    <instance objName="obj_player" x="139" y="39" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="344" y="107" name="inst_5D441D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="221" y="23" name="inst_7BA5EC43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="219" y="23" name="inst_E3C6DD65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="217" y="23" name="inst_8718D0B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -62,7 +62,7 @@
     <instance objName="obj_platform" x="223" y="23" name="inst_1B147BB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="225" y="23" name="inst_407B4EEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="227" y="23" name="inst_15A3E847" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_teleport" x="145" y="98" name="inst_C5F34719" locked="0" code="teleport_x = 188&#xA;teleport_y = 174&#xA;bgm = snd_main&#xA;" scaleX="0.875" scaleY="2" colour="4294967295" rotation="-9"/>
+    <instance objName="obj_teleport" x="145" y="98" name="inst_C5F34719" locked="0" code="teleport_x = 188&#xA;teleport_y = 174&#xA;bgm = snd_cave&#xA;" scaleX="0.875" scaleY="2" colour="4294967295" rotation="-9"/>
     <instance objName="obj_teleport" x="190" y="166" name="inst_B8A63BC6" locked="0" code="teleport_x = 155&#xA;teleport_y = 110&#xA;bgm = snd_main&#xA;" scaleX="0.625" scaleY="2.125" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="249" y="100" name="inst_6D88D101" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="247" y="100" name="inst_977EEB83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -137,7 +137,7 @@
     <instance objName="obj_platform" x="233" y="141" name="inst_5D93CAAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="235" y="141" name="inst_1CEB717A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="237" y="141" name="inst_BA16C729" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_level1_mask" x="34" y="317" name="inst_CDABE62C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level1_mask" x="23" y="295" name="inst_CDABE62C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="152" y="110" name="inst_DED69545" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mushroom" x="162" y="182" name="inst_712661CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stump" x="210" y="180" name="inst_718F083E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -166,7 +166,7 @@
     <instance objName="obj_abigail_arm" x="67" y="192" name="inst_338339EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_abigail_trigger" x="76" y="197" name="inst_73CA95CE" locked="0" code="" scaleX="2.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_abigail_human" x="117" y="230" name="inst_5464FB36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_teleport" x="202" y="208" name="inst_7BC0BDFF" locked="0" code="teleport_x = 471&#xA;teleport_y = 235&#xA;bgm = snd_main&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="202" y="208" name="inst_7BC0BDFF" locked="0" code="teleport_x = 471&#xA;teleport_y = 235&#xA;bgm = snd_desert&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_desert_light" x="282" y="243" name="inst_DB4D4A78" locked="0" code="cid = 1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_desert_light" x="291" y="243" name="inst_DE257C1B" locked="0" code="cid = 2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_desert_light" x="300" y="243" name="inst_6D9A731F" locked="0" code="cid = 3" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -208,7 +208,7 @@
     <instance objName="obj_teleport" x="353" y="37" name="inst_846292BA" locked="0" code="teleport_x = 396&#xA;teleport_y = 52&#xA;bgm = snd_main&#xA;" scaleX="0.625" scaleY="1.25" colour="4294967295" rotation="47"/>
     <instance objName="obj_teleport" x="383" y="54" name="inst_57B64F03" locked="0" code="teleport_x = 354&#xA;teleport_y = 45&#xA;bgm = snd_main&#xA;" scaleX="0.75" scaleY="2" colour="4294967295" rotation="47"/>
     <instance objName="obj_carol" x="383" y="-1" name="inst_32226281" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_carol_human" x="356" y="44" name="inst_D7236F04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_carol_human" x="419" y="18" name="inst_D7236F04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_oceansunlight" x="14" y="120" name="inst_34976678" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_finale_teleport" x="120" y="26" name="inst_D02D692C" locked="0" code="" scaleX="1.125" scaleY="2.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_final_abigail" x="4" y="78" name="inst_C7C8958F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

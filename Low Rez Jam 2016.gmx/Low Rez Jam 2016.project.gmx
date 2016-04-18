@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\snd_main</sound>
     <sound>sound\snd_desert</sound>
+    <sound>sound\snd_cave</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
@@ -42,6 +43,7 @@
       <sprite>sprites\spr_spiritgate_frame</sprite>
       <sprite>sprites\spr_bridge</sprite>
       <sprite>sprites\spr_windmill_switch</sprite>
+      <sprite>sprites\spr_key_detail</sprite>
     </sprites>
     <sprites name="cave">
       <sprite>sprites\spr_abigail_path</sprite>
@@ -190,6 +192,7 @@
     <objects name="carol">
       <object>objects\obj_carol_human</object>
       <object>objects\obj_wand_detail</object>
+      <object>objects\obj_key_detail</object>
       <object>objects\obj_altar_slot</object>
       <object>objects\obj_carol</object>
     </objects>

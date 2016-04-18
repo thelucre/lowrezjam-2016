@@ -8,16 +8,16 @@
 if(!window_get_fullscreen()) window_set_size(512, 512);
 
 // activate secret goodies
-global.debug    = true 
-global.fast     = true
+global.debug    = false 
+global.fast     = false
 
 // game variables 
-global.energy   = 9 // unused 
+global.energy   = 0
 global.canMove  = true
 global.key      = false
 global.ring     = false 
 global.gear     = false 
-global.wand     = true
+global.wand     = false
 global.teleports_active = false
 global.altar = 0
 
