@@ -82,6 +82,7 @@ canChange = true
   if(active) image_index = 1; else image_index = 0;
   
   canChange = false
+  audio_play_sound(snd_switch, 80, false)
   
   // toggle the targeted water valves
   for(var i = 0; i &lt; array_length_1d(targets); i++) 

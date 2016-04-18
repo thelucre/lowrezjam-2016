@@ -105,6 +105,7 @@ obj_abigail_arm.image_index = 0
 obj_abigail_arm.image_speed = 0.5
 obj_abigail_arm.sprite_index = spr_abigail_flash_arm
 alarm[1] = 30
+audio_play_sound(snd_boss_flash, 80, false)
 </string>
           </argument>
         </arguments>

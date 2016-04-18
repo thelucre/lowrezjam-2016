@@ -55,6 +55,7 @@ obj_gloop_2.image_index = 0
 obj_gloop_2.sprite_index = spr_gloop_left_dead
 obj_gloop_3.image_index = 0
 obj_gloop_3.sprite_index = spr_gloop_right_dead
+audio_play_sound(snd_cody_win, 80, false)
 </string>
           </argument>
         </arguments>
@@ -126,6 +127,7 @@ alarm[2] = 30
           <argument>
             <kind>1</kind>
             <string>sprite_index = spr_cody_flash
+audio_play_sound(snd_boss_flash, 80, false)
 alarm[1] = 90
 </string>
           </argument>

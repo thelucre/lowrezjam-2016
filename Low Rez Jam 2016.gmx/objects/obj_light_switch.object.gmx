@@ -102,7 +102,7 @@ canChange = true
   active = !active
   
   canChange = false
-  
+  audio_play_sound(snd_switch, 80, false)
   
   // turn off other switches 
   with(obj_light_switch) {

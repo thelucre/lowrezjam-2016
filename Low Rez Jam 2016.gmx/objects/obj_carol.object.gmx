@@ -100,6 +100,7 @@ alarm[2] = 30
             <kind>1</kind>
             <string>sprite_index = spr_carol_flash
 alarm[1] = 90
+audio_play_sound(snd_boss_flash, 80, false)
 </string>
           </argument>
         </arguments>

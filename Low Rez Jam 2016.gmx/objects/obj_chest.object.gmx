@@ -59,6 +59,8 @@ depth = -y -3
     triggered = true
     global.canMove = false
     instance_create(view_xview[0]+32,view_yview[0]+32,obj_key_detail)
+    alarm[1] = 60
+    audio_play_sound(snd_switch, 80, false)
   }
 }
 </string>

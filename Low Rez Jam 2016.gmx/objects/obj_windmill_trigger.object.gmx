@@ -56,6 +56,7 @@ image_speed = 0
   image_index = 1
   obj_windmill.active = true 
   obj_bridge.active = true
+  audio_play_sound(snd_switch, 80, false)
 }
 </string>
           </argument>

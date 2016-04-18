@@ -28,6 +28,9 @@
             <string>if(global.wand) {
   other.x = 63
   other.y += 64
+  
+  audio_stop_sound(obj_bgm_manager.bgm)
+  audio_play_sound(snd_credits, 100, true)
 }
 </string>
           </argument>

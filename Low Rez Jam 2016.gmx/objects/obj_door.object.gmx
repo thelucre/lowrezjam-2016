@@ -55,6 +55,7 @@ triggered = false
     global.canMove = false  
     image_speed = 0.3
     triggered = true
+    audio_play_sound(snd_door, 80, false)
   }
 }
 </string>

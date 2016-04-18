@@ -8,6 +8,19 @@
     <sound>sound\snd_main</sound>
     <sound>sound\snd_desert</sound>
     <sound>sound\snd_cave</sound>
+    <sound>sound\snd_cody_win</sound>
+    <sound>sound\snd_door</sound>
+    <sound>sound\snd_energy</sound>
+    <sound>sound\snd_feet_1</sound>
+    <sound>sound\snd_feet_2</sound>
+    <sound>sound\snd_boss_flash</sound>
+    <sound>sound\snd_item</sound>
+    <sound>sound\snd_switch</sound>
+    <sound>sound\snd_teleport</sound>
+    <sound>sound\snd_lucre</sound>
+    <sound>sound\snd_gate</sound>
+    <sound>sound\snd_gate_open</sound>
+    <sound>sound\snd_credits</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>

@@ -53,12 +53,14 @@ gatehidden = false
   gateshown = true 
   obj_spiritgate.solid = true
   obj_spiritgate.visible = true
+  audio_play_sound(snd_gate,80,false)
 }
 
 if(global.wand and !gatehidden) {
   gatehidden = true 
   obj_spiritgate.solid = false
   obj_spiritgate.visible = false
+  audio_play_sound(snd_gate_open,80,false)
 }
 </string>
           </argument>

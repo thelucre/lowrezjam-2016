@@ -80,6 +80,7 @@ triggered = false
     triggered = true
     global.canMove = false
     alarm[0] = 8
+    audio_play_sound(snd_switch, 80, false)
   }
 }
 </string>

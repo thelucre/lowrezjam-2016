@@ -48,7 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(room_init)
+            <string>audio_stop_all()
+room_goto(room_init)
 </string>
           </argument>
         </arguments>

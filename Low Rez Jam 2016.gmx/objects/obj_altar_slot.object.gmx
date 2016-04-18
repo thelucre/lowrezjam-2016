@@ -55,6 +55,7 @@ if(global.energy &gt; 0 and !active) {
   active = true
   global.energy--
   global.altar++
+  audio_play_sound(snd_switch, 80, false)
   
   if(global.altar == 9) {
     obj_carol.triggered = true
