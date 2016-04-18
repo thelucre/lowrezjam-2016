@@ -77,11 +77,12 @@
       <sprite>sprites\spr_desert_switch</sprite>
       <sprite>sprites\spr_desert_light</sprite>
       <sprite>sprites\spr_cody_idle</sprite>
-      <sprite>sprites\spr_gloop_1</sprite>
-      <sprite>sprites\spr_gloop_2</sprite>
-      <sprite>sprites\spr_gloop_3</sprite>
+      <sprite>sprites\spr_gloop_top</sprite>
+      <sprite>sprites\spr_gloop_left</sprite>
+      <sprite>sprites\spr_gloop_right</sprite>
       <sprite>sprites\spr_desert_bridge</sprite>
       <sprite>sprites\spr_gear_detail</sprite>
+      <sprite>sprites\spr_cody_flash</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
