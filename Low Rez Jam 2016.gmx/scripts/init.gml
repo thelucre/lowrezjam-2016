@@ -12,7 +12,7 @@ global.debug    = true
 global.fast     = true
 
 // game variables 
-global.energy   = 0 // unused 
+global.energy   = 0 
 global.canMove  = true
 global.key      = false
 global.ring     = true 
