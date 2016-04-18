@@ -12,13 +12,14 @@ global.debug    = true
 global.fast     = true
 
 // game variables 
-global.energy   = 0 
+global.energy   = 9 // unused 
 global.canMove  = true
 global.key      = false
 global.ring     = true 
 global.gear     = false 
 global.wand     = false
 global.teleports_active = false
+global.altar = 0
 
 // maintain dat 64x64
 display_set_gui_size(64,64)

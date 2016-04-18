@@ -89,6 +89,14 @@
       <sprite>sprites\spr_cody</sprite>
       <sprite>sprites\spr_cody_wave</sprite>
     </sprites>
+    <sprites name="carol">
+      <sprite>sprites\spr_carol_human</sprite>
+      <sprite>sprites\spr_carol_human_wave</sprite>
+      <sprite>sprites\spr_altar_slot</sprite>
+      <sprite>sprites\spr_carol</sprite>
+      <sprite>sprites\spr_carol_flash</sprite>
+      <sprite>sprites\spr_wand_detail</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_map</background>
@@ -175,6 +183,12 @@
       <object>objects\obj_gloop_3</object>
       <object>objects\obj_desert_bridge</object>
       <object>objects\obj_gear_detail</object>
+    </objects>
+    <objects name="carol">
+      <object>objects\obj_carol_human</object>
+      <object>objects\obj_wand_detail</object>
+      <object>objects\obj_altar_slot</object>
+      <object>objects\obj_carol</object>
     </objects>
   </objects>
   <rooms name="rooms">
