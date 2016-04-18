@@ -1,5 +1,3 @@
-*
-!index.html
-!favicon.ico
-!html5game/
-!html5game/**/*
+index.html
+favicon.ico
+html5game/
