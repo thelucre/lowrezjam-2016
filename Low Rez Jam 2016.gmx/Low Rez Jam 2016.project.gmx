@@ -83,6 +83,11 @@
       <sprite>sprites\spr_desert_bridge</sprite>
       <sprite>sprites\spr_gear_detail</sprite>
       <sprite>sprites\spr_cody_flash</sprite>
+      <sprite>sprites\spr_gloop_top_dead</sprite>
+      <sprite>sprites\spr_gloop_left_dead</sprite>
+      <sprite>sprites\spr_gloop_right_dead</sprite>
+      <sprite>sprites\spr_cody</sprite>
+      <sprite>sprites\spr_cody_wave</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -159,6 +164,7 @@
       <object>objects\obj_ring_detail</object>
     </objects>
     <objects name="cody">
+      <object>objects\obj_cody_human</object>
       <object>objects\obj_light_switch</object>
       <object>objects\obj_move_switch</object>
       <object>objects\obj_desert_light</object>

@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>triggered = false
 image_speed = 0.2
-depth = -400
+depth = -200
 </string>
           </argument>
         </arguments>
@@ -75,6 +75,29 @@ depth = -400
             <kind>1</kind>
             <string>triggered = true
 alarm[0] = 2
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(sprite_index = spr_gloop_top_dead) instance_destroy()
 </string>
           </argument>
         </arguments>
