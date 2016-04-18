@@ -26,7 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.3
-move_speed = 0.55
+move_speed = 1
+move_delay = 2 // effectively how many frames before the player can move 
+move_counter = 0
+moving = false
 </string>
           </argument>
         </arguments>
@@ -52,12 +55,16 @@ move_speed = 0.55
             <string>/// Process Player Input/Movement
 event_inherited()
 
+move_counter++
 depth = -y-2
 
 var movex = 0
 var movey = 0
 
-if(global.canMove) {
+moving = (keyboard_check(vk_left) or keyboard_check(vk_right)
+  or keyboard_check(vk_up) or keyboard_check(vk_down))
+
+if(global.canMove and move_counter &gt;= move_delay) {
   if(keyboard_check(vk_left)) movex = -move_speed 
   if(keyboard_check(vk_right)) movex = move_speed
   if(keyboard_check(vk_up)) movey = -move_speed
@@ -88,10 +95,14 @@ if(place_free(x, y + movey)) y += movey
 else movey = 0
 
 // don't animate if against walls 
-if(movex == 0 &amp;&amp; movey == 0) {
+if(!moving) {
   image_speed = 0
   image_index = 0
-} else image_speed = 0.3
+} else { 
+  image_speed = 0.3
+}
+
+if(movex != 0 or movey != 0) move_counter = 0
 
 // limit view to current map tile
 view_xview[0] = floor(x/64)*64
