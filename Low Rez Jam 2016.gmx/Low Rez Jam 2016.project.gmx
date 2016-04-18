@@ -97,9 +97,12 @@
       <sprite>sprites\spr_carol_flash</sprite>
       <sprite>sprites\spr_wand_detail</sprite>
     </sprites>
+    <sprite>sprites\spr_oceanlight</sprite>
+    <sprite>sprites\spr_fade</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_map</background>
+    <background>background\bkd_credits</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -190,10 +193,21 @@
       <object>objects\obj_altar_slot</object>
       <object>objects\obj_carol</object>
     </objects>
+    <object>objects\obj_oceansunlight</object>
+    <objects name="finale">
+      <object>objects\obj_final_abigail</object>
+      <object>objects\obj_finale_teleport</object>
+      <object>objects\obj_final_cody</object>
+      <object>objects\obj_final_carol</object>
+      <object>objects\obj_finale_trigger</object>
+      <object>objects\obj_fade</object>
+      <object>objects\obj_credits</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_init</room>
     <room>rooms\room_game</room>
+    <room>rooms\room_credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

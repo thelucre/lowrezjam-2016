@@ -15,9 +15,9 @@ global.fast     = true
 global.energy   = 9 // unused 
 global.canMove  = true
 global.key      = false
-global.ring     = true 
+global.ring     = false 
 global.gear     = false 
-global.wand     = false
+global.wand     = true
 global.teleports_active = false
 global.altar = 0
 
