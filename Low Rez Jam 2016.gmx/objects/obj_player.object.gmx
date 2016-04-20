@@ -30,6 +30,7 @@ move_speed = 1
 move_delay = 2 // effectively how many frames before the player can move 
 move_counter = 0
 moving = false
+instance_create(x,y,obj_lost_logo)
 </string>
           </argument>
         </arguments>

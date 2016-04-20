@@ -114,6 +114,7 @@
     </sprites>
     <sprite>sprites\spr_oceanlight</sprite>
     <sprite>sprites\spr_fade</sprite>
+    <sprite>sprites\spr_lost_logo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkd_map</background>
@@ -219,6 +220,7 @@
       <object>objects\obj_fade</object>
       <object>objects\obj_credits</object>
     </objects>
+    <object>objects\obj_lost_logo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_init</room>

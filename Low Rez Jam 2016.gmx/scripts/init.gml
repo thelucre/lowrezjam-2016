@@ -13,7 +13,7 @@ global.fast     = false
 
 // game variables 
 global.energy   = 0
-global.canMove  = true
+global.canMove  = false
 global.key      = false
 global.ring     = false 
 global.gear     = false 
